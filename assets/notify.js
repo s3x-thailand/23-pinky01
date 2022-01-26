@@ -186,7 +186,7 @@
                 console.log(error);
              }
          });
-
+        
         var submit_form = document.getElementById('sheetdb-form');
 
         fetch(submit_form.action, {
@@ -197,6 +197,7 @@
         ).then((html) => {
             window.location.href = './thankyou.html?fb_pixel_id=600493857630184,932767647301597,672084573820817';
         });
+        
     }
 
     function checkForm(ev) {
